@@ -15,7 +15,7 @@ sudo apt install nodejs
 sudo apt install npm
 ```
 
-##Python 3.8 Pip, Python3 Install
+## Python 3.8 Pip, Python3 Install
 ```
 sudo apt install -y python3-pip
 sudo apt install pip
