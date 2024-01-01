@@ -1,6 +1,6 @@
 # Server-Starter
 Serverda Lazım olan paketleri kurabilmek için repo, kısayol.
-@KingsHarald § @enzifiri
+[KingsHarald](https://github.com/KingsHarald0) § [enzifiri](https://github.com/enzifiri)
 
 ### Gcc Install
 ```
