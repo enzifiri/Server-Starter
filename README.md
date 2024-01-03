@@ -10,10 +10,10 @@ apt install curl iptables build-essential git wget jq make gcc nano tmux htop nv
 
 ## NodeJS and NPM Install
 ```
-curl -sL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh
+curl -sL https://deb.nodesource.com/setup_20.x -o /tmp/nodesource_setup.sh
 sudo bash /tmp/nodesource_setup.sh
 sudo apt install nodejs
-sudo apt install npm
+npm install -g npm@10.2.5
 ```
 
 ## Python 3.8 Pip, Python3 Install
