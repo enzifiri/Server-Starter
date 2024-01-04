@@ -15,7 +15,6 @@ sudo bash /tmp/nodesource_setup.sh
 sudo apt install nodejs
 npm install -g npm@10.2.5
 ```
-
 ## Python 3.8 Pip, Python3 Install
 ```
 sudo apt install -y python3-pip
@@ -63,4 +62,10 @@ sudo apt-get update
 sudo apt-get install yarn -y
 ```
 
+# SİLME KOMUTLARI
 
+## NODE JS SİLME KOMUTU
+```
+sudo apt remove nodejs
+sudo apt purge nodejs
+```
