@@ -69,3 +69,19 @@ sudo apt-get install yarn -y
 sudo apt remove nodejs
 sudo apt purge nodejs
 ```
+## Eğer node JS silinmezse şu komutları uygula
+which node
+which npm
+
+sunucudan sunucuya değişir tüm klasörler için olan kodları atıyorum buraya
+```
+sudo rm /usr/local/bin/node
+sudo rm /usr/local/bin/npm
+sudo rm /usr/bin/node
+sudo rm /usr/bin/npm
+rm -rf ~/.nvm
+rm /root/.nvm/versions/node/v16.20.2/bin/node
+rm /root/.nvm/versions/node/v16.20.2/bin/npm
+```
+
+
