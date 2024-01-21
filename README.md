@@ -7,7 +7,19 @@ Serverda Lazım olan paketleri kurabilmek için repo, kısayol.
 sudo apt-get update && sudo apt-get upgrade -y
 apt install curl iptables build-essential git wget jq make gcc nano tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev -y
 ```
-
+## Go Kurulumu 
+```
+cd $HOME
+sudo rm -rf /root/go
+ver="1.21.6"
+wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
+sudo rm -rf /usr/local/go
+sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
+rm "go$ver.linux-amd64.tar.gz"
+echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
+source $HOME/.bash_profile
+go version
+```
 ## NodeJS and NPM Install
 ```
 curl -sL https://deb.nodesource.com/setup_20.x -o /tmp/nodesource_setup.sh
