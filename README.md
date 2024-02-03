@@ -75,7 +75,13 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt-get update
 sudo apt-get install yarn -y
 ```
-
+## Rust
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
+rustc --version
+cargo --version
+```
 # SİLME KOMUTLARI
 
 ## NODE JS SİLME KOMUTU
