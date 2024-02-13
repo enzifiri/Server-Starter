@@ -5,7 +5,7 @@ Serverda Lazım olan paketleri kurabilmek için repo, kısayol.
 ### Gcc Install
 ```
 sudo apt-get update && sudo apt-get upgrade -y
-apt install curl iptables build-essential git wget jq make gcc nano tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev -y
+apt install curl iptables build-essential git wget jq make gcc nano tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev screen -y
 ```
 ## Go Kurulumu  (AMD INTEL)
 ```
