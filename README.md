@@ -39,7 +39,7 @@ go version
 curl -sL https://deb.nodesource.com/setup_20.x -o /tmp/nodesource_setup.sh
 sudo bash /tmp/nodesource_setup.sh
 sudo apt install nodejs
-npm install -g npm@10.2.5
+npm install -g npm@10.4.0 
 ```
 ## Python 3.8 Pip, Python3 Install
 ```
