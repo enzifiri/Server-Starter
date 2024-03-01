@@ -6,6 +6,7 @@ Serverda Lazım olan paketleri kurabilmek için repo, kısayol.
 ```
 sudo apt-get update && sudo apt-get upgrade -y
 apt install curl iptables build-essential git wget jq make gcc nano tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev screen -y
+source <(curl -s https://raw.githubusercontent.com/nodejumper-org/cosmos-scripts/master/utils/enable_colorful_bash.sh)
 ```
 ## Go Kurulumu  (AMD INTEL)
 ```
