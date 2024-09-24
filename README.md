@@ -26,7 +26,7 @@ go version
 ```
 cd $HOME
 sudo rm -rf /root/go
-ver="1.22.2"
+ver="1.23"
 wget "https://golang.org/dl/go$ver.linux-arm64.tar.gz"
 sudo rm -rf /usr/local/go
 sudo tar -C /usr/local -xzf "go$ver.linux-arm64.tar.gz"
