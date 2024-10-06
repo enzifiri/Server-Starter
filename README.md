@@ -12,7 +12,7 @@ source <(curl -s https://raw.githubusercontent.com/nodejumper-org/cosmos-scripts
 ```
 cd $HOME
 sudo rm -rf /root/go
-ver="1.23"
+ver="1.23.2"
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 sudo rm -rf /usr/local/go
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
@@ -26,7 +26,7 @@ go version
 ```
 cd $HOME
 sudo rm -rf /root/go
-ver="1.23"
+ver="1.23.2"
 wget "https://golang.org/dl/go$ver.linux-arm64.tar.gz"
 sudo rm -rf /usr/local/go
 sudo tar -C /usr/local -xzf "go$ver.linux-arm64.tar.gz"
